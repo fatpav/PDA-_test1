@@ -23,10 +23,10 @@ class CardGame:
  
 
  def cards_total(cards): #no 'self' argument used where there should be.
-   total # 'total' has no definition it should '=' something e.g an integer of string or list.  
+   total # 'total' has no definition it should '=' something e.g an integer or string or list.  I chose '0'
    for card in cards:
      total += card.value
-     return "You have a total of" + total
+     return "You have a total of" + total # you can't simply return an integer without converting in to work within a string
 
 
 ```
